@@ -1,0 +1,25 @@
+﻿<Window x:Class="Лаб_6_Лобачев.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лаб_6_Лобачев"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="210" VerticalAlignment="Top" Width="236" Margin="273,138,0,0" Source="jcsvourw.jpeg" RenderTransformOrigin="0.53,0.71">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.65"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label x:Name="label1" Content="Котик" HorizontalAlignment="Left" Margin="371,102,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Кнопка" Content="Изменить надпись" HorizontalAlignment="Left" Height="26" Margin="590,102,0,0" VerticalAlignment="Top" Width="137" Click="Кнопка_Click" />
+        <Button Content="Изменить картинку" HorizontalAlignment="Left" Height="29" Margin="590,339,0,0" VerticalAlignment="Top" Width="137" Click="Button_Click"/>
+
+    </Grid>
+</Window>
